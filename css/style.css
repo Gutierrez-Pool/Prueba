@@ -5,11 +5,12 @@
 
     /* border: 1px red solid; */
 }
-
 /* reset */
+
 body {
     font-family: sans-serif;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -20,12 +21,10 @@ body {
 
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /* Navbar */
 .container nav {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +32,6 @@ body {
     height: 80px;
 
     background-color: #255ee9;
-
 }
 
 .logo, .links, .login {
@@ -41,7 +39,6 @@ body {
     align-items: center;
 
     padding: 10px;
-
 }
 
 
@@ -52,24 +49,18 @@ body {
 
     width: 240px;
     height: 50px;
-
-    /* background-color: #daa520; */
 }
 /* DA MIGLIORARE (?) CLASS LOGO */
 
 
 .links {
-
     justify-content: center;
 
     width: 720px;
     height: 50px;
-
-    /* background-color: #daa520; */
 }
 
 .links a {
-    
     text-decoration: none;
     
     padding: 20px;
@@ -78,21 +69,12 @@ body {
 }
 
 .login {
-
     justify-content: flex-end;
 
     width: 240px;
     height: 50px;
-
-    /* background-color: #daa520; */
 }
 
-/* .accedi {
-    
-    border: white;
-    padding: 10px;
-    border-radius: 20px;
-} */
 /* Fine navbar */
 
 
@@ -106,7 +88,6 @@ button {
 
 
 /* header */
-
 header {
 
     display: flex;
@@ -115,21 +96,18 @@ header {
 
     height: 500px;
 
-    /* background-color: #00008b; */
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-position: center;
 
     color: white;
 }
 
 .quadrato {
-    /* display: flex; */
     text-align: center;
 
     width: 900px;
     height: 400px;
-
-    /* background-color: #ee82ee; */
 }
 
 header .quadrato h1 {
@@ -168,35 +146,25 @@ header .quadrato .paragrafo {
     align-items: center;
 
     height: 600px;
-    /* padding: 60px; */
 }
 
 .img {
-    /* display: flex; */
-
     width: 715px;
     height: 500px;
 
-    /* background-color: #1e90ff; */
 }
 
 .testo {
-    /* display: flex; */
-
     width: 475px;
     height: 500px;
-
-    /* background-color: #ffc0cb; */
 }
 
-/* .prova .testo  */
 h2 {
     font-size: 2.5em;
 
     padding: 30px;
 }
 
-/* .prova .testo  */
 p {
     line-height: 1.5em;
 
@@ -205,8 +173,13 @@ p {
 
 .bg-gray {
     background-color: #d3d3d3;
+    /* background-image: url('../img/wave.svg');
+    background-size: 1800px 100px;
+    background-repeat: no-repeat; */
+    
 }
 /* Fine prima sezione */
+
 
 
 /* Seconda sezione */
@@ -221,18 +194,16 @@ p {
 }
 
 .quadrato2 {
-    /* display: flex; */
     text-align: center;
 
     width: 1194px;
     height: 895px;
-    
-    /* background-color: #228b22; */
 }
 
 .quadrato2 h3 {
     
     padding-top: 30px;
+
     background-image: url('../img/stars.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -240,6 +211,7 @@ p {
 
 .quadrato2 button {
     margin-top: 20px;
+
     color: white;
     background-color: #8ea1e1;
 }
@@ -248,7 +220,6 @@ p {
 
 
 /* Footer */
-
 footer {
     display: flex;
     flex-direction: column;
@@ -282,13 +253,10 @@ footer {
     padding-top: 50px;
 
     color: white;
-    /* background-color: #20b2aa; */
 }
 
 #footer-top .footer-links {
     width: 355px;
-
-    /* background-color: #f08080; */
 }
 
 #footer-top li {
@@ -315,38 +283,10 @@ footer {
 
     width: 1190px;
     height: 82px;
-
-    /* background-color: #7fffd4; */
 }
 
 .fine-pagina .registrati {
     color: white;
     background-color: #8ea1e1;
 }
-
-/* DA MIGLIORARE (?) CLASS LOGO */
-/* #footer-bottom .logo {
-
-    justify-content: center;
-
-    width: 68px;
-    height: 38px;
-
-    background-color: #ffb6c1;
-} */
-/* DA MIGLIORARE (?) CLASS LOGO */
-
-
-/* .bottone {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 93px;
-    height: 36px;
-
-    background-color: #ffb6c1;
-} */
-
 /* Fine footer */
